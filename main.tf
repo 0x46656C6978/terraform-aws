@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = ""
+    bucket = "felix-infra"
     key    = "terraform"
     region = "ap-southeast-1"
   }
